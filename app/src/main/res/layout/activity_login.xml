@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtKichhoat"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:text="Kích hoạt !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:visibility="invisible"
+        android:hint="Nhap vao ten"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        android:id="@+id/edtTen"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<com.rey.material.widget.EditText-->
+        <!--app:et_supportTextSize="@dimen/_20sdp"-->
+        <!--app:et_labelTextColor="#000"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:id="@+id/edtTen"-->
+        <!--android:layout_marginRight="@dimen/_10sdp"-->
+        <!--android:layout_marginLeft="@dimen/_10sdp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <com.rey.material.widget.Button
+        android:visibility="invisible"
+        android:id="@+id/btnDangNhap"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:background="@drawable/bg"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        app:rd_enable="true"/>
+
+    <com.rey.material.widget.Switch
+        style="@style/Material.Widget.Switch"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:id="@+id/switchkey"
+        android:gravity="center"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtKichhoat"
+        android:layout_toEndOf="@+id/txtKichhoat"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="48dp" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tuan1</string>
+    <string name="pirates">XemGio</string>
+    <string name="ninjas">XemNgay</string>
+    <string name="meat">Hòa đồng</string>
+    <string name="cheese">Vui vẻ</string>
+    <string name="meata">Dễ tính</string>
+    <string name="cheesea">Nóng nảy</string>
+    <string name="meatư">Hồn nhiên</string>
+    <string name="cheeseư">Lãng mạn</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
